@@ -1,11 +1,10 @@
-<!DOCTYPE html>
 <html>
  <head>
   <meta charset="utf-8">
   <title>background-color</title>
   <style>
    body{
-    background-color: #3366CC; /* Цвет фона веб-страницы */
+    background-color: #ffffff; /* Цвет фона веб-страницы */
    } 
    h1 {
     background-color: RGB(249, 201, 16); /* Цвет фона под заголовком */
