@@ -6,7 +6,7 @@ body {
   background-image: url('carbon (10).png');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 70% 70%;
+  background-size: 90% 90%;
 }
 </style>
  </head>
