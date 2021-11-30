@@ -5,13 +5,10 @@
    body{
     background-color: #000000; /* Цвет фона веб-страницы */
    } 
-   {
-    color: #ffffff; /* Цвет текста */
-   }
   </style>
  </head>
  <body>
-  <h1>BubbleGumTeam</h1>
+  <h1 style="color:#ffffff;text-align:center;">BubbleGumTeam</h1>
   <p>Welcome</p>
  </body>
 </html>
