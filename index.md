@@ -4,7 +4,7 @@
   <title>background-color</title>
   <style>
    body{
-    background-color: #ff0000; /* Цвет фона веб-страницы */
+    background-color: #000000; /* Цвет фона веб-страницы */
    } 
    {
     color: white; /* Цвет текста */
