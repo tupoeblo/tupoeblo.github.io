@@ -1,13 +1,12 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>background-color</title>
   <style>
    body{
     background-color: #000000; /* Цвет фона веб-страницы */
    } 
    {
-    color: white; /* Цвет текста */
+    color: #ffffff; /* Цвет текста */
    }
   </style>
  </head>
