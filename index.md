@@ -2,10 +2,13 @@
  <head>
   <meta charset="utf-8">
   <style>
-   body{
-    background-color: #000000; /* Цвет фона веб-страницы */
-   } 
-  </style>
+body {
+  background-image: url('carbon (10).png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
  </head>
  <body>
   <h1 style="color:#ffffff;text-align:center;">BubbleGumTeam</h1>
