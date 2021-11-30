@@ -4,20 +4,15 @@
   <title>background-color</title>
   <style>
    body{
-    background-color: #ffffff; /* Цвет фона веб-страницы */
+    background-color: #ff0000; /* Цвет фона веб-страницы */
    } 
-   h1 {
-    background-color: RGB(249, 201, 16); /* Цвет фона под заголовком */
-   }
-   p {
-    background-color: maroon; /* Цвет фона под текстом параграфа */
+   {
     color: white; /* Цвет текста */
    }
   </style>
  </head>
  <body>
-  <h1>Lorem ipsum dolor sit amet</h1>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem 
-  nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat.</p>
+  <h1>BubbleGumTeam</h1>
+  <p>Welcome</p>
  </body>
 </html>
