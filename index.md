@@ -17,7 +17,10 @@ color: #ffffff;font-family:courier;text-align:center;
 <h1 style="font-size:30px;color: #ffffff;font-family:courier;text-align:center;border:0.1px solid #5a5a5a;"">tupoeblo.info</h1>
 <div>
 <br><br><br><br><br><br>
-<p><a href="https://t.me/bubblegumteam">#Global | BubbleGum Team</a></p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p>
+<a href="https://t.me/bubblegumteam">#Global | BubbleGum Team</a>
+</p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </div>
 </body>
 </html>
