@@ -9,14 +9,20 @@ background-size: 400px 600px;
 background-position: center top;
 }
 p {
-color: #0c8b35;font-family:courier;text-align:center;
+color: #ffffff;
+font-family:courier;
+text-align:center;
+width: 290px;
+height: 200px;
 }
 </style>
 </head>
 <body style="background-color:black;">
-<h1 style="color: #ffffff;font-family:courier;text-align:center;border:0.1px solid #5a5a5a;">tupoeblo.info</h1>
 <div>
-<br><br><br><br><br><br>
+<br><br><br><br>
+<h1
+style="color: #676767;font-size: 80%;font-family:courier;text-align: center;">tupoeblo.info</h1>
+<br>
 <p>
 <a href="https://t.me/bubblegumteam">#Global | BubbleGum Team</a>
 </p>
