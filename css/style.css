@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main__image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__image img {
+    width: 35%;
+}
+
+.main__title {
+    position: absolute;
+    top: 11.5%;
+    color: grey;
+}
+
+.main__text {
+    color:white;
+    position: absolute;
+}
+
+@media (max-device-width: 767px) {
+    .main__image img {
+        width: 100%;
+    }
+}
