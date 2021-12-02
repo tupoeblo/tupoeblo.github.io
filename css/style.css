@@ -31,7 +31,14 @@ body {
     left: 13%;
     font-size: 85%;
 }
-
+a img {
+				max-width: 20%;
+				background-color: #ffffff;
+				position: absolute;
+				top: 770%;
+				left: 160%;
+				border-radius: 100px;
+}
 @media (max-device-width: 767px) {
     .main__image img {
         width: 100%;
