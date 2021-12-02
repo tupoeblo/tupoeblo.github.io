@@ -20,13 +20,16 @@ body {
 
 .main__title {
     position: absolute;
-    top: 11.5%;
+    top: 10.2%;
     color: grey;
 }
 
 .main__text {
     color:white;
     position: absolute;
+    top: 18%;
+    left: 13%;
+    font-size: 85%;
 }
 
 @media (max-device-width: 767px) {
