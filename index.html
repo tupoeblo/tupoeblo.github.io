@@ -11,8 +11,8 @@
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 140px;
-    background-color: #555;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     text-align: center;
     border-radius: 6px;
     padding: 5px;
@@ -44,8 +44,6 @@
 </head>
 <body>
 
-<p>Click on the button to copy the text from the text field. Try to paste the text (e.g. ctrl+v) afterwards in a different window, to see the effect.</p>
-
 <input type="text" value="Hello World" id="myInput">
 
 <div class="tooltip">
@@ -54,8 +52,6 @@
   Copy text
   </button>
 </div>
-
-<p>The document.execCommand() method is not supported in IE9 and earlier.</p>
 
 <script>
 function myFunction() {
