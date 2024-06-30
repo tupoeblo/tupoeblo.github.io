@@ -14,22 +14,23 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: flex-start; /* Change from center to flex-start */
-            min-height: 100vh; /* Ensure the body is at least the full viewport height */
-            padding-top: 20px; /* Add some padding at the top */
+            justify-content: flex-start;
+            min-height: 100vh;
+            padding-top: 20px;
         }
         .container {
             text-align: center;
             width: 80%;
             max-width: 800px;
             margin: auto;
-            margin-top: 20px; /* Ensure there is a top margin for the container */
+            margin-top: 20px;
         }
         .avatar {
             width: 150px;
             height: 150px;
             border-radius: 50%;
             margin-bottom: 20px;
+            object-fit: cover;
         }
         .link {
             margin: 10px 0;
@@ -54,11 +55,16 @@
             margin-top: 20px;
             border-radius: 15px;
         }
+        @media (max-width: 600px) {
+            iframe {
+                height: 300px; /* Уменьшение высоты iframe на мобильных устройствах */
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="https://i.imgur.com/Rzef7Gr.jpg" alt="Avatar" class="avatar">
+        <img src="https://i.imgur.com/yourimageid.png" alt="Avatar" class="avatar">
         <h1>Привет, я фотограф</h1>
         <div class="link">
             <a href="https://drive.google.com/drive/folders/1UuPre_qdmWEFG420yq4epgBJJg0zqe0G" target="_blank" class="button">Мой Google Диск</a>
