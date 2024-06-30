@@ -29,18 +29,28 @@
             border-radius: 50%;
             margin-bottom: 20px;
         }
-        a {
-            color: #1e90ff;
-            text-decoration: none;
-        }
         .link {
             margin: 10px 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #ffffff;
+            background-color: #1e90ff;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #1c86ee;
         }
         iframe {
             width: 100%;
             height: 500px;
             border: none;
             margin-top: 20px;
+            border-radius: 15px;
         }
     </style>
 </head>
@@ -49,12 +59,12 @@
         <img src="URL_ТВОЕЙ_АВАТАРКИ" alt="Avatar" class="avatar">
         <h1>Привет, я фотограф</h1>
         <div class="link">
-            <a href="https://drive.google.com/drive/folders/1UuPre_qdmWEFG420yq4epgBJJg0zqe0G" target="_blank">Мой Google Диск</a>
+            <a href="https://drive.google.com/drive/folders/1UuPre_qdmWEFG420yq4epgBJJg0zqe0G" target="_blank" class="button">Мой Google Диск</a>
         </div>
         <div class="link">
-            <a href="https://www.instagram.com/tupoeblo.photo/" target="_blank">Мой Instagram</a>
+            <a href="https://www.instagram.com/tupoeblo.photo/" target="_blank" class="button">Мой Instagram</a>
         </div>
-        <iframe src="https://drive.google.com/drive/folders/1UuPre_qdmWEFG420yq4epgBJJg0zqe0G"></iframe>
+        <iframe src="https://www.instagram.com/tupoeblo.photo/embed" allowtransparency="true" frameborder="0"></iframe>
     </div>
 </body>
 </html>
