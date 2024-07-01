@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моя Личная Веб-страница</title>
+    <link rel="icon" href="https://i.imgur.com/BxFGTTD.png" type="image/png"> <!-- Добавление иконки -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -32,6 +33,15 @@
             margin-top: 40px; /* Добавление верхнего отступа для аватара */
             margin-bottom: 20px; 
             object-fit: cover;
+            position: relative;
+            overflow: hidden;
+        }
+        .avatar img {
+            position: relative;
+            top: 10px; /* Смещение изображения вниз */
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
         .link {
             margin: 10px 0;
@@ -49,12 +59,17 @@
         .button:hover {
             background-color: #1c86ee;
         }
+        .iframe-container {
+            width: 100%;
+            background-color: #1c1c1c; /* Темный фон контейнера */
+            border-radius: 15px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
         iframe {
             width: 100%;
             height: 500px;
             border: none;
-            margin-top: 20px;
-            border-radius: 15px;
         }
         @media (max-width: 600px) {
             iframe {
@@ -65,7 +80,9 @@
 </head>
 <body>
     <div class="container">
-        <img src="https://i.imgur.com/Rzef7Gr.jpg" alt="Avatar" class="avatar">
+        <div class="avatar">
+            <img src="https://i.imgur.com/Rzef7Gr.jpg" alt="Avatar">
+        </div>
         <h1>Привет, я фотограф</h1>
         <div class="link">
             <a href="https://drive.google.com/drive/folders/1UuPre_qdmWEFG420yq4epgBJJg0zqe0G" target="_blank" class="button">Мой Google Диск</a>
@@ -73,7 +90,9 @@
         <div class="link">
             <a href="https://www.instagram.com/tupoeblo.photo/" target="_blank" class="button">Мой Instagram</a>
         </div>
-        <iframe src="https://www.instagram.com/tupoeblo.photo/embed" allowtransparency="true" frameborder="0"></iframe>
+        <div class="iframe-container">
+            <iframe src="https://www.instagram.com/tupoeblo.photo/embed" allowtransparency="true" frameborder="0"></iframe>
+        </div>
     </div>
 </body>
 </html>
