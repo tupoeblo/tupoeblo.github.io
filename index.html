@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моя Личная Веб-страница</title>
-    <link rel="icon" href="https://i.imgur.com/FC50Vgl.png" type="image/png"> <!-- Добавление иконки -->
+    <link rel="icon" href="https://imgur.com/a/jZSwR66.png" type="image/png"> <!-- Добавление иконки -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -30,8 +31,8 @@
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            margin-top: 40px; /* Добавление верхнего отступа для аватара */
-            margin-bottom: 20px; 
+            margin-top: 40px;
+            margin-bottom: 20px;
             object-fit: cover;
         }
         .link {
@@ -67,17 +68,34 @@
                 height: 300px;
             }
         }
+        .icon {
+            margin-right: 8px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="https://i.imgur.com/BTKM2el.png" alt="Avatar" class="avatar">
-        <h1>Привіт, я фотограф. Мене звати Рома Заяць, це мої роботи.</h1>
+        <img src="https://imgur.com/a/eOunUwB.jpg" alt="Avatar" class="avatar">
+        <h1>Привет, я фотограф</h1>
         <div class="link">
-            <a href="https://drive.google.com/drive/folders/1UuPre_qdmWEFG420yq4epgBJJg0zqe0G" target="_blank" class="button">Мій Google Диск</a>
+            <a href="https://drive.google.com/drive/folders/1UuPre_qdmWEFG420yq4epgBJJg0zqe0G" target="_blank" class="button">
+                <i class="fas fa-folder-open icon"></i>Мой Google Диск
+            </a>
         </div>
         <div class="link">
-            <a href="https://www.instagram.com/tupoeblo.photo/" target="_blank" class="button">Мій Instagram</a>
+            <a href="https://www.instagram.com/tupoeblo.photo/" target="_blank" class="button">
+                <i class="fab fa-instagram icon"></i>Мой Instagram
+            </a>
+        </div>
+        <div class="link">
+            <a href="mailto:your.email@example.com" target="_blank" class="button">
+                <i class="fas fa-envelope icon"></i>Написать мне
+            </a>
+        </div>
+        <div class="link">
+            <a href="https://t.me/yourtelegram" target="_blank" class="button">
+                <i class="fab fa-telegram-plane icon"></i>Мой Telegram
+            </a>
         </div>
         <div class="iframe-container">
             <iframe src="https://www.instagram.com/tupoeblo.photo/embed" allowtransparency="true" frameborder="0"></iframe>
